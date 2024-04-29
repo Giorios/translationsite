@@ -1,11 +1,13 @@
 #one {
     width: 350px;
     height: 250px;
+    background-color: #d6d6d6;
 }
 
 #two {
     width: 350px;
     height: 250px;
+    background-color: #d6d6d6;
 }
 body {
     background-color: #718FBD;
