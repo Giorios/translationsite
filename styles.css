@@ -2,21 +2,25 @@
     width: 350px;
     height: 250px;
     background-color: #d6d6d6;
+    border: 2px solid black;
 }
 
 #two {
     width: 350px;
     height: 250px;
     background-color: #d6d6d6;
+    border: 2px solid black;
 }
 body {
     background-color: #718FBD;
+    overflow-x: hidden;
 }
 .midtwo {
     top: 50%;
     left: 75%;
     margin: -100px 0 0 -150px;
     position: absolute;
+
 
 }
 .midone {
@@ -26,12 +30,12 @@ body {
     position: absolute;
 
 }
-.dropdown {
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
 .title {
-    padding-top: 25px;
+    min-height: 100px;
+    font-size: 50px;
+    background-color: #6c89a5;
+    min-width: 2000px;
+
 }
 input[type=text]:focus {
     background-color: rgba(255, 255, 255, 0.589);
